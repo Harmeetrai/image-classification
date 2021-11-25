@@ -121,7 +121,7 @@ The Model works!
 Using the model we saved called `cifar10_model.h5`, we will build an interactive app using streamlit. Learn more about streamlit [here](https://docs.streamlit.io/).
 
 ### app.py
-This will be the main file used to run the app. Please take a look in the (github repo)[https://github.com/Harmeetrai/image-classification/blob/main/app.py].
+This will be the main file used to run the app. Please take a look in the [github repo](https://github.com/Harmeetrai/image-classification/blob/main/app.py).
 
 ### setup.sh
 This is the setup file for heroku:
