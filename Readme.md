@@ -139,6 +139,15 @@ enableCORS = false\n\
 ```
 web: sh setup.sh && streamlit run app.py
 ```
+### Requirements.txt
+You will need a separate requirements.txt file that is dedicated to streamlit:
+```txt
+streamlit
+Pillow==8.3.2
+tensorflow-cpu
+numpy
+pytest-shutil
+```
 ### Deploy to Heroku
 Now deploy the code to [Heroku](https://heroku.com/). This can be done by first deploying to github and linking your github repo to Heroku. 
 # Credit
